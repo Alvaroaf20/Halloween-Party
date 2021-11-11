@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: 'halloween';
+    src: url('../fonts/Swamp\ Witch.ttf');
+    
+}
+
+body{background-color: black;
+color: white;
+font-family: halloween;}
+
+#container {background-image: url(../images/fondo\ halloween.jpg);
+            width: 1920px;
+            height: 1200px;
+            margin: auto;
+            position: relative;
+        }
+
+        #p1{font-size: 7em;
+        text-shadow: 5px 5px 5px red;
+        position: absolute;
+        top: -100px;
+        left: 650px;
+    }
+    #p2{text-shadow: 5px 5px 5px red;
+        position: absolute;
+        top: 550px;
+        left: 900px;
+        font-size: 3em;
+    }
+
+    #bruja{position: absolute;
+    
+    top: 550px;
+    left: 1200px;
+    width: 400px;
+    visibility: hidden;
+    }
+
+    #ventana{width: 50px;
+     height: 80px;
+   /* border: 1px solid white;*/
+position: absolute;
+top: 600px;
+ left: 1260px;
+}
+
+#p3{font-size: 3em;
+    text-shadow: 5px 5px 5px red;
+    position:absolute ;
+    top: 200px;
+    left: 350px;}
+
+    #p4{font-size: 3em;
+        text-shadow: 5px 5px 5px red;
+        position:absolute ;
+        top: 700px;
+        left: 75px;} 
+
+        #ventana2{width: 80px;
+            height: 120px;
+          /* border: 1px solid white;*/
+       position: absolute;
+       top: 950px;
+        left: 60px;
+       }
+
+       #zombie{position: absolute;
+    
+        top: 810px;
+        left: 120px;
+        width: 400px;
+        visibility: hidden;
+    
+    }

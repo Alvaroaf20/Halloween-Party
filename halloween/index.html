@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Halloween Party</title>
+    <link rel="stylesheet" href="./styles/halloween.css">
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <script src="./javascripts/halloween.js"></script>
+</head>
+<body onload="sonar('fondo')">
+
+  <audio id="fondo" controls>
+   
+      <source src="./sounds/Cinematic-stinger.mp3" type="audio/mpeg"  >
+    </audio>
+
+
+  <audio id='laugh'> 
+    <source src="./sounds/41957044_halloween-witch-laughing-01.mp3" type="audio/mpeg">
+  </audio>
+
+
+<audio id="zombieGrito">
+  <source src="./sounds/zombie.mp3" type="audio/mpeg">
+</audio>
+
+  <div id="container">
+  <p id="p1">Scary Halloween Party</p>
+  <p id="p2">Dont knock on the door...</p>
+  <img id="bruja" src="./images/bruja.gif" alt="">
+  <div id="ventana" onmouseover="mostrar('bruja');sonar('laugh')"
+              onmouseout="ocultar('bruja');parar('laugh')">
+            </div>
+            <p id="p3">You are invited to a terrifying costume party in the Alcazaba of Malaga at midnight on October 31</p>
+            <img id="zombie" src="./images/zombie.gif" alt="">
+            <div id="ventana2" onmouseover="mostrar('zombie');sonar('zombieGrito')"
+            onmouseout="ocultar('zombie');parar('zombieGrito')">
+          </div> 
+  <p id="p4">A suspicious name can be read on the tombstone...</p> 
+  </div>
+  
+</body>
+</html>
